@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="createnav">
+        <div>
+            <button class="btn btn-light" style="float: left;" id="back" onclick="back()">Back</button>
+        </div>
+        <div style="text-align: center;">
+            <h3 class="text-light" style="font-size: 6vw;">'Your Story'</h3>
+        </div>
+    </nav>
+    <div style="padding: 1vw;margin-left: 31vw;position: absolute;top: 12vw;">
+        <div class="p-3 mb-2 bg-light text-dark" id="formContainer" style="width: 34vw;border-radius: 0.5vw;">
+            <form>
+                <div class="form-group">
+                  <label>Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" style="width: 30vw;">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="Enter First Name" style="width: 30vw;">
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="Enter Last Name" style="width: 30vw;">
+                </div>
+                <div class="form-group">
+                    <label>UserName</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter First Name" style="width: 30vw;">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="pass" placeholder="Password" style="width: 30vw;">
+                </div>
+                <script src="./javascripts/create.js"></script>
+                <button type="submit" class="btn btn-success" onclick="submit();return false">Submit</button>
+              </form>
+            </div>
+    </div>
+</body>
+</html>

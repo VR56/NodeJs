@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript" src="js/bootstrap.min.js"></script>
+    <script src="./javascripts/displayPage.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./stylesheets/displayPage.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm p-3 mb-2 bg-info navbar-dark justify-content-end" id="nav">
+        <h1 class="text-light" style="margin-bottom: 15vw;">'Your Story'</h1>
+        <button class="btn btn-light ml-auto mr-1" style="margin-bottom: 15vw;" onclick="home()">Home</button>
+        <button class="btn btn-danger" style="margin-bottom: 15vw;" onclick="logout()">Log Out</button>
+    </nav>
+    <div style="margin-left: 25vw; margin-top: 5vw;position: absolute;top: 10vw;">
+        <div class="p-3 mb-2 bg-light text-dark" style="width: 49vw; border-radius: 0.5vw;">
+            <div>
+                <textarea class="form-control" id="storyPost" placeholder="Post Your Story..." style="width: 45vw;height: 10vw;"></textarea>
+                <br>
+                <div style="text-align: right; margin-right: 2vw;">
+                    <button class="btn btn-primary" onclick="postStory()">Post</button>
+                </div>
+            </div>
+            <hr>
+            <ul style="list-style-type:none;padding: 0;margin: 0;" id="storySpace">
+                <li>
+                    <h3 id="username"></h3>
+                    <!-- <hr> -->
+                    <h5 id="story"></h5>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript" src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm p-3 mb-2 bg-info navbar-dark justify-content-center" id="nav">
+    <h1 class="text-light" style="font-size: 6vw;padding-bottom: 10vw;">'Your Story'</h1>
+</nav>
+    <div style="padding: 4vw;margin-left: 27vw;position: fixed;top: 10vw;">
+        <div class="p-3 mb-2 bg-light text-dark" id="formContainer" style="width: 40vw; border-radius: 0.5vw;">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">User Name</label>
+                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter email" style="width: 37vw;">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="pass" placeholder="Password" style="width: 37vw;">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="authorize();return false">Submit</button>
+                <br>
+                <br>
+                <div id="errorDiv">  
+                </div>
+                <hr>
+                <p class="text-secondary">Do Not have an account?</p>
+                <button class="btn btn-success" onclick="create();return false">Create an Account</button>
+              </form>
+            </div>
+    </div>
+    <script src="./javascripts/login.js"></script>
+
+</body>
+</html>

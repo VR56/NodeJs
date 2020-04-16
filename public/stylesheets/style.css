@@ -1,0 +1,36 @@
+/* body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} */
+
+a {
+  color: #00B7FF;
+}
+#main{
+  height: 34vw;
+  background-image: url('../images/pexels-photo-1340588.jpeg');
+}
+index.body{
+  padding: 2vw;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+#quote{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+#nav{
+  height: 25vw;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../images/pexels-photo-1340588.jpeg');
+}
+#createnav{
+  padding: 3vw;
+  height: 25vw;
+  font-family: 'Raleway', sans-serif;
+  background-image: url('../images/pexels-photo-1340588.jpeg');
+  display: flex;
+  flex-direction: column;
+}
+
