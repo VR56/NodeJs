@@ -1,0 +1,40 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.container{
+  width: 40vw;
+  border-style: double;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 5vw;
+  font-size: x-large;
+}
+.outer{
+  background-color: beige;
+  align-items: center;
+  padding-left: 21vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+}
+.header{
+  background-color: beige;
+  text-align: center;
+  height: 10vw;
+  font-size: xxx-large;
+  padding-top: 5vw;
+}
+.profile{
+  margin-left: 40vw;
+  font-size: x-large;
+  height: 4vw;
+  border-radius: 1vw;
+  background-color:bisque;
+}
+.profile:hover{
+  background-color: burlywood;
+}
